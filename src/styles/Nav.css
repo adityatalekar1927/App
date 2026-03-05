@@ -1,0 +1,39 @@
+.Nav{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.Nav1{
+    height: 70px;
+}
+.Nav2{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    margin-top: 6px;
+}
+/* .Nav3{
+ /* background-color: #8f00ff ;  */
+/* }  */
+select{
+    text-align: center;
+    border: none;
+    background: none;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15.3px;
+}
+
+button{
+    background-color: #8f00ff;
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+    padding-top: 6px;
+    
+}

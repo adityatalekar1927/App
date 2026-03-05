@@ -1,0 +1,37 @@
+/* .marqu{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+} */
+
+
+
+
+.marqueeWrapper {
+ background-color: rgb(2, 2, 22);
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.marqueeTrack {
+  display: flex;
+  width: fit-content;
+  animation: scroll 10s linear infinite;
+}
+
+.marqueeTrack img {
+  height: 100px;
+  margin: 0 40px;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
