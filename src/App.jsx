@@ -11,15 +11,12 @@ function App() {
   
 
   return (
-    <>
-      <Navbar/>
-      <Nav/>
-      <Video />
-      <Marquee />
-      <Middle 
-      h1="Aditya" h2="atharva"
-       />
-    </>
+    <div>
+     <Navbar></Navbar>
+     <Nav></Nav>
+     <Marquee></Marquee>
+     <Video></Video>
+    </div>
   )
 }
 
